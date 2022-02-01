@@ -6,14 +6,12 @@ public class Square extends Shape {
 
     @Override
     public String getShapeName() {
-        String name = "Квадрат";
-        return name;
+        return "Квадрат";
     }
 
     @Override
-    public String getColor(String colorName) {
-        String colorOfTheShape = colorName;
-        return colorOfTheShape;
+    public String setColor(String colorName) {
+        return colorName;
     }
 
 }

@@ -15,8 +15,7 @@ public class Quad extends Shape {
     }
 
     @Override
-    public String getColor(String colorName) {
-        String colorOfTheShape = colorName;
-        return colorOfTheShape;
+    public String setColor(String colorName) {
+        return colorName;
     }
 }

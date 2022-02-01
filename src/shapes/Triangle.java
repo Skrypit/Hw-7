@@ -6,13 +6,11 @@ public class Triangle extends Shape {
 
     @Override
     public String getShapeName() {
-        String name = "Трикутник";
-        return name;
+        return "Трикутник";
     }
 
     @Override
-    public String getColor(String colorName) {
-        String colorOfTheShape = colorName;
-        return colorOfTheShape;
+    public String setColor(String colorName) {
+        return colorName;
     }
 }

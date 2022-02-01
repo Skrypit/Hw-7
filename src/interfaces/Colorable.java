@@ -1,5 +1,5 @@
 package interfaces;
 
 public interface Colorable {
-    String getColor(String colorName);
+    String setColor(String colorName);
 }

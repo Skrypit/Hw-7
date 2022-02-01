@@ -21,16 +21,15 @@ public class Text implements Colorable, Cloneable {
         return super.clone();
     }
 
-    public static void main(String[] args) {
-        Text text = new Text();
-        System.out.println("inputText = " + text.someTextInput());
-    }
-
-
     @Override
-    public String getColor(String colorName) {
-        String colorOfTheTexts = colorName;
-        return colorOfTheTexts;
+    public String setColor(String colorName) {
+        return colorName;
     }
+
+    public static void main(String[] args) {
+
+        System.out.println("inputText = " + someTextInput());
+    }
+
 }
 

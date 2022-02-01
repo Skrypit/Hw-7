@@ -14,8 +14,8 @@ public class StartProgram {
         Shape circle = new Circle();
         System.out.println(circle.getShapeName());
 
-        Shape quad = new Quad();
-        System.out.println(quad.getShapeName() + "\n" + ((Quad) quad).quadSize(2, 5));
+        Quad quad = new Quad();
+        System.out.println(quad.getShapeName() + "\n" + quad.quadSize(2, 5));
 
         Shape triangle = new Triangle();
         System.out.println(triangle.getShapeName());
@@ -25,7 +25,7 @@ public class StartProgram {
 
         Shape square = new Square();
 
-        System.out.println(square.getShapeName() + ". Колір " + square.getColor("чорний"));
+        System.out.println(square.getShapeName() + ". Колір " + square.setColor("чорний"));
 
     }
 }
